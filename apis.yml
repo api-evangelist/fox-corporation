@@ -1,0 +1,365 @@
+aid: fox-corporation
+url: https://raw.githubusercontent.com/api-evangelist/fox-corporation/refs/heads/main/apis.yml
+name: Fox Corporation
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Media
+  - Broadcasting
+  - News
+  - Sports
+  - Entertainment
+  - Streaming
+  - Television
+  - Free Ad-Supported Streaming
+  - Sports Betting
+  - Fortune 500
+description: >-
+  Fox Corporation (NASDAQ: FOXA, FOX) is a US media company spun out of 21st
+  Century Fox in 2019 when the rest of the business was sold to Disney. Per the
+  company website, "Fox Corporation produces and distributes compelling news,
+  sports, and entertainment content through its primary iconic domestic brands"
+  — Fox News Media (Fox News Channel, Fox Business Network, Fox News Digital,
+  Fox News Audio, Fox Weather), Fox Sports (FS1, FS2, Big Ten Network, Fox
+  Deportes, Fox Bet partnerships), Fox Entertainment, Fox Television Stations,
+  and the Tubi Media Group (Tubi free ad-supported streaming, Credible). In May
+  2024 Fox acquired Mexican sports-betting and casino operator Caliente.mx,
+  expanding its sports-and-wagering footprint into Latin America. Fox does not
+  publish a public developer portal or REST API surface for the parent
+  corporation — programmatic distribution is delivered via per-brand RSS / Atom
+  feeds (Fox News, Fox Business, Fox Sports, Fox Weather), the Tubi Media Group
+  open source projects on GitHub (github.com/Tubitv, 53 public repositories),
+  and direct B2B advertising and content-syndication relationships rather than
+  self-serve API signup. This apis.yml therefore catalogs the public RSS
+  surface, Tubi engineering OSS, and the corporate/brand web properties.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.foxcorporation.com/
+  - type: ParentCompany
+    url: https://www.foxcorporation.com/
+  - type: PreviousCompany
+    url: https://www.21cf.com/
+  - type: InvestorRelations
+    url: https://investor.foxcorporation.com/
+  - type: SECFilings
+    url: https://investor.foxcorporation.com/financials/sec-filings/
+  - type: PressReleases
+    url: https://www.foxcorporation.com/press-releases/
+  - type: Leadership
+    url: https://www.foxcorporation.com/leadership/
+  - type: Careers
+    url: https://careers.foxcorporation.com/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/fox-corporation
+  - type: Sitemap
+    url: https://www.foxcorporation.com/sitemap.xml
+  - type: Robots
+    url: https://www.foxcorporation.com/robots.txt
+  - type: Brands
+    data:
+      - name: Fox News Channel
+        url: https://www.foxnews.com/
+        description: Flagship 24-hour cable news network.
+      - name: Fox Business Network
+        url: https://www.foxbusiness.com/
+        description: Business and financial cable news network.
+      - name: Fox Sports
+        url: https://www.foxsports.com/
+        description: Sports cable networks (FS1, FS2), broadcast and digital sports brand, Fox Deportes, Big Ten Network.
+      - name: Fox Weather
+        url: https://www.foxweather.com/
+        description: Streaming weather service launched 2021, part of Fox News Media.
+      - name: Fox Entertainment
+        url: https://www.foxentertainment.com/
+        description: Broadcast entertainment programming and studios (Bento Box Entertainment, Studio Ramsay Global, MarVista Entertainment, TMZ).
+      - name: Fox Television Stations
+        url: https://www.fox.com/
+        description: 29 owned-and-operated local television stations across 14 US markets, plus the Fox Local app.
+      - name: Tubi Media Group
+        url: https://tubitv.com/
+        description: Free ad-supported streaming service (AVOD), San Francisco; acquired by Fox in March 2020.
+      - name: Credible
+        url: https://www.credible.com/
+        description: Personal finance marketplace, part of the Tubi Media Group.
+      - name: Caliente.mx
+        url: https://www.caliente.mx/
+        description: Mexican sports-betting and online-casino operator; majority stake acquired by Fox May 2024.
+      - name: Fox One
+        url: https://www.foxone.com/
+        description: Direct-to-consumer streaming bundle aggregating Fox News, Fox Sports, Fox Weather, and Fox Entertainment programming.
+  - type: GitHubOrganization
+    url: https://github.com/Tubitv
+    description: Tubi engineering GitHub org — 53 public repositories spanning streaming/media (TubiPlayer, hls.js fork, ExoPlayer fork), Elixir backend libs (grpc, protobuf, redis_cluster, logger_sentry, overseer), Roku/Brightscript utilities (rodash), JupyterLab extensions, and the xdiff API-diff tool.
+  - type: EngineeringBlog
+    url: https://code.tubitv.com/
+    description: Tubi engineering blog (code.tubitv.com).
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/latest.xml
+    description: Fox News — Latest Headlines (all sections) RSS / Atom feed served from the moxie / google-publisher CDN pattern shared across Fox brands.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/us.xml
+    description: Fox News — U.S. headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/world.xml
+    description: Fox News — World headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/politics.xml
+    description: Fox News — Politics headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/opinion.xml
+    description: Fox News — Opinion headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/science.xml
+    description: Fox News — Science headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/health.xml
+    description: Fox News — Health headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/tech.xml
+    description: Fox News — Tech headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/travel.xml
+    description: Fox News — Travel headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/lifestyle.xml
+    description: Fox News — Lifestyle headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/entertainment.xml
+    description: Fox News — Entertainment headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/media.xml
+    description: Fox News — Media headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/sports.xml
+    description: Fox News — Sports headlines RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxnews.com/google-publisher/videos.xml
+    description: Fox News — Videos RSS feed.
+  - type: RSSIndex
+    url: https://www.foxnews.com/story/foxnews-com-rss-feeds
+    description: Fox News public-facing index of all available RSS feeds.
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/latest.xml
+    description: Fox Business — Latest Headlines RSS feed (same moxie / google-publisher pattern as Fox News).
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/markets.xml
+    description: Fox Business — Markets RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/economy.xml
+    description: Fox Business — Economy RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/personal-finance.xml
+    description: Fox Business — Personal Finance RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/lifestyle.xml
+    description: Fox Business — Lifestyle RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/technology.xml
+    description: Fox Business — Technology RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxbusiness.com/google-publisher/videos.xml
+    description: Fox Business — Videos RSS feed.
+  - type: NewsRSS
+    url: https://moxie.foxweather.com/google-publisher/latest.xml
+    description: Fox Weather — Latest Headlines RSS feed.
+  - type: RSSIndex
+    url: https://www.foxsports.com/rss-feeds
+    description: Fox Sports public RSS index — 24 league/topic feeds served via api.foxsports.com/v2/content/optimized-rss with a shared partnerKey query parameter.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30
+    description: Fox Sports — All Headlines RSS feed (partnerKey-scoped optimized-rss endpoint, size=30 items).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&aggregateId=7f83e8ca-6701-5ea0-96ee-072636b67336
+    description: Fox Sports — Top Headlines RSS feed (aggregateId-scoped).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/nfl
+    description: Fox Sports — NFL RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/mlb
+    description: Fox Sports — MLB RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/cfb
+    description: Fox Sports — College Football RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/ufl
+    description: Fox Sports — UFL RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/nba
+    description: Fox Sports — NBA RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/nhl
+    description: Fox Sports — NHL RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/cbk
+    description: Fox Sports — College Basketball RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/wnba
+    description: Fox Sports — WNBA RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/wcbk
+    description: Fox Sports — Women's College Basketball RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/truck-series,fs/cup-series,fs/xfinity-series
+    description: Fox Sports — NASCAR RSS feed (Truck, Cup, Xfinity series combined).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/indycar,fs/formula-1,fs/motogp,fs/nhra,fs/arca-racing,fs/indy-nxt
+    description: Fox Sports — Motor Sports RSS feed (IndyCar, F1, MotoGP, NHRA, ARCA, Indy NXT).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/ufc
+    description: Fox Sports — UFC RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/wwe
+    description: Fox Sports — WWE RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/korn-ferry-tour,fs/lpga-tour,fs/pga-tour,fs/liv
+    description: Fox Sports — Golf RSS feed (PGA, LPGA, Korn Ferry, LIV).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/atp,fs/wta
+    description: Fox Sports — Tennis RSS feed (ATP, WTA).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/soccer,soccer/epl/league/1,soccer/mls/league/5,soccer/ucl/league/7,soccer/europa/league/8,soccer/wc/league/12,soccer/euro/league/13,soccer/wwc/league/14,soccer/nwsl/league/20,soccer/cwc/league/26,soccer/gold_cup/league/32,soccer/unl/league/67
+    description: Fox Sports — Soccer RSS feed (EPL, MLS, UCL, Europa, World Cup, Euros, WWC, NWSL, CWC, Gold Cup, UNL).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=soccer/wc/league/12
+    description: Fox Sports — FIFA World Cup RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=soccer/wwc/league/14
+    description: Fox Sports — FIFA Women's World Cup RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/winter,fs/summer
+    description: Fox Sports — Olympics RSS feed (Winter and Summer).
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=other/horseracing/league/1
+    description: Fox Sports — Horseracing RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/wkc
+    description: Fox Sports — Westminster Kennel Club Dog Show RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs/world-baseball-classic
+    description: Fox Sports — World Baseball Classic RSS feed.
+  - type: NewsRSS
+    url: https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&content_type=spark_post_press_pass&component_type=news_article_press_pass
+    description: Fox Sports — PressPass RSS feed.
+  - type: Podcast
+    url: https://radio.foxnews.com/podcast
+    description: Fox News Radio / podcast directory.
+  - type: Podcast
+    url: https://www.foxnews.com/podcasts
+    description: Fox News podcast catalog.
+  - type: Newsletter
+    url: https://www.foxnews.com/newsletters
+    description: Fox News email newsletters signup.
+  - type: EmailAlerts
+    url: https://investor.foxcorporation.com/investor-resources/email-alerts/
+    description: Fox Corporation investor email alerts.
+  - type: TermsOfService
+    url: https://www.foxnews.com/terms-of-use
+  - type: PrivacyPolicy
+    url: https://www.foxnews.com/privacy-policy
+  - type: Advertising
+    url: https://www.foxadsolutions.com/
+    description: Fox Ad Solutions — B2B advertising portal (programmatic and direct-sold).
+  - type: Features
+    data:
+      - name: Fox One Streaming Bundle
+        description: >-
+          Direct-to-consumer streaming service that aggregates Fox News, Fox
+          Sports, Fox Weather, and Fox Entertainment content into a single
+          subscription, launched fiscal 2026.
+      - name: Tubi Free Ad-Supported Streaming
+        description: >-
+          Free ad-supported streaming TV (FAST/AVOD) service with movies, TV
+          shows, live news, sports, and the Creatorverse independent-creator
+          channel; partnerships with A&E, FOX, Hallmark, Lifetime, and others;
+          available on iOS, Android, Roku, Amazon Fire, and web; bilingual
+          English / Spanish.
+      - name: Tubi Engineering Open Source
+        description: >-
+          Tubi maintains a public GitHub org at github.com/Tubitv with 53
+          repositories spanning streaming/media (TubiPlayer, ExoPlayer fork,
+          hls.js fork), Elixir backend libraries (grpc, protobuf, redis_cluster,
+          logger_sentry, overseer, AutoError, ex_country_data, ex_loader,
+          ex-datadog-plug), Roku/Brightscript utilities (rodash), JupyterLab
+          extensions, and the xdiff Rust API-diff tool; engineering blog at
+          code.tubitv.com.
+      - name: Caliente.mx Acquisition
+        description: >-
+          Fox Corporation acquired a majority stake in Caliente.mx in May 2024,
+          taking control of one of Mexico's largest sports-betting and online
+          casino operators. The deal extends the Fox Bet wagering thesis into
+          Latin America after Fox's earlier US-market Fox Bet joint venture
+          with Flutter was wound down.
+      - name: Fox News Moxie / google-publisher RSS Platform
+        description: >-
+          Fox News, Fox Business, and Fox Weather all serve their public RSS /
+          Atom feeds from a shared moxie.<brand>.com/google-publisher/<topic>.xml
+          CDN pattern (with HTTP/2, ETag, and X-Amzn-Requestid headers indicating
+          an AWS-fronted delivery tier). The naming aligns with Google
+          Publisher Center ingestion conventions, so the same feeds power Google
+          News distribution as well as third-party RSS aggregators.
+      - name: Fox Sports optimized-rss Platform
+        description: >-
+          Fox Sports exposes 24 league/topic RSS feeds via a single
+          api.foxsports.com/v2/content/optimized-rss endpoint scoped by a public
+          partnerKey query parameter and tag filters
+          (size, tags, aggregateId, content_type, component_type). Tag values
+          follow a stable taxonomy (fs/nfl, fs/mlb, fs/cfb, soccer/epl/league/1,
+          etc.) that could be machine-introspected for additional sports
+          beyond those listed on the public RSS index page.
+      - name: Fox Television Stations Local Footprint
+        description: >-
+          Fox owns and operates 29 local broadcast television stations across 14
+          US markets (the largest duopoly portfolio in US local broadcast),
+          plus the streaming Fox Local app distributing local news and weather
+          from each FTS market.
+      - name: Fox Bet Wind-Down and Caliente Reset
+        description: >-
+          The original Fox Bet US sportsbook joint venture with Flutter
+          Entertainment was wound down in 2023; the Caliente.mx acquisition
+          (May 2024) repositions Fox's sports-wagering exposure into the
+          Mexican market under an established local operator brand.
+  - type: Segments
+    data:
+      - name: Cable Network Programming
+        description: Affiliate fees and advertising from Fox News Channel, Fox Business Network, FS1, FS2, and Big Ten Network.
+      - name: Television
+        description: Fox broadcast network, 29 owned-and-operated Fox Television Stations, Fox Entertainment studios, and the Tubi Media Group ad-supported streaming business.
+      - name: Other Corporate and Eliminations
+        description: Corporate overhead, Fox Sports betting partnerships, the Caliente.mx investment, and intercompany eliminations.
+  - type: UseCases
+    data:
+      - name: News Headline Syndication
+        description: Third-party news aggregators, content licensees, and downstream apps consume Fox News / Fox Business / Fox Weather RSS feeds to re-syndicate headlines, descriptions, and canonical URLs.
+      - name: Google News Distribution
+        description: The moxie / google-publisher feed naming maps directly onto Google Publisher Center ingestion so Fox brand content surfaces in Google News and Discover.
+      - name: Sports Topic Tracking
+        description: Sportsbook operators, fantasy services, and sports-news aggregators consume the per-league Fox Sports optimized-rss feeds (NFL, MLB, NBA, NHL, soccer leagues) for editorial coverage tied to game events.
+      - name: Streaming Player Integrations
+        description: Tubi's open-source TubiPlayer, ExoPlayer fork, and hls.js fork are used in Tubi's own Android, Roku, and web clients and are referenced in the wider streaming-media engineering community.
+      - name: Investor and Press Distribution
+        description: Investor email alerts and the press-releases page provide first-party investor relations distribution; no first-party RSS feed for press releases or SEC filings is published.
+      - name: Caliente Sports Betting (Mexico)
+        description: Direct-to-consumer sportsbook and online-casino product operated under the Caliente brand in Mexico following the May 2024 Fox acquisition.
+  - type: Integrations
+    data:
+      - name: Google Publisher Center
+        description: Fox News, Fox Business, and Fox Weather RSS feeds follow the Google Publisher Center naming convention (moxie/google-publisher/*.xml) for Google News ingestion.
+      - name: Flutter Entertainment (historical)
+        description: Fox's original Fox Bet US sportsbook joint venture with Flutter; wound down in 2023.
+      - name: Caliente.mx
+        description: Mexican sports-betting and online-casino operator; majority stake acquired by Fox in May 2024.
+      - name: Spotify / Apple Podcasts / iHeartRadio
+        description: Fox News and Fox Business podcasts distributed through major podcast platforms in addition to radio.foxnews.com.
+      - name: Flipboard
+        description: Fox News and Fox Business maintain Flipboard storyboards as a secondary syndication channel.
+plansReconciled: false
+rateLimitsReconciled: false
+finopsReconciled: false
+position: Producing
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
