@@ -1,0 +1,13 @@
+{
+  "repo": "fox-corporation",
+  "feeds": [
+    {
+      "source": "https://moxie.foxnews.com/google-publisher/latest.xml",
+      "feed_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
+      "title": "Latest & Breaking News on Fox News",
+      "saved": 25
+    }
+  ],
+  "fetched": "2026-07-11T11:43:46Z",
+  "post_count": 50
+}
